@@ -1,0 +1,559 @@
+[
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.ClienteController",
+    "Method": "Editar",
+    "RelativePath": "api/Cliente/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "clienteDto",
+        "Type": "ConcesionarioApi.DTOs.ClienteDTO.ClienteCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.ClienteController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Cliente/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.ClienteController",
+    "Method": "Lista",
+    "RelativePath": "api/Cliente/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.ClienteController",
+    "Method": "Nuevo",
+    "RelativePath": "api/Cliente/Nuevo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteDto",
+        "Type": "ConcesionarioApi.DTOs.ClienteDTO.ClienteCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.ClienteController",
+    "Method": "Obtener",
+    "RelativePath": "api/Cliente/Obtener/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.PublicacionController",
+    "Method": "Editar",
+    "RelativePath": "api/Publicacion/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ConcesionarioApi.DTOs.PublicacionDTO.PublicacionCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.PublicacionController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Publicacion/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.PublicacionController",
+    "Method": "GetInformeGeneral",
+    "RelativePath": "api/Publicacion/InformeGeneral",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ConcesionarioApi.DTOs.PublicacionDTO.InformeGeneralDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.PublicacionController",
+    "Method": "Lista",
+    "RelativePath": "api/Publicacion/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.PublicacionController",
+    "Method": "ListaDisponibles",
+    "RelativePath": "api/Publicacion/ListaDisponibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.PublicacionController",
+    "Method": "Nuevo",
+    "RelativePath": "api/Publicacion/Nuevo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ConcesionarioApi.DTOs.PublicacionDTO.PublicacionCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.PublicacionController",
+    "Method": "Obtener",
+    "RelativePath": "api/Publicacion/Obtener/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.ReglaPrecioController",
+    "Method": "Editar",
+    "RelativePath": "api/ReglaPrecio/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ConcesionarioApi.DTOs.ReglaPrecioDTO.ReglaPrecioCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.ReglaPrecioController",
+    "Method": "Eliminar",
+    "RelativePath": "api/ReglaPrecio/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.ReglaPrecioController",
+    "Method": "Lista",
+    "RelativePath": "api/ReglaPrecio/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.ReglaPrecioController",
+    "Method": "Nuevo",
+    "RelativePath": "api/ReglaPrecio/Nuevo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ConcesionarioApi.DTOs.ReglaPrecioDTO.ReglaPrecioCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.ReglaPrecioController",
+    "Method": "Obtener",
+    "RelativePath": "api/ReglaPrecio/Obtener/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.UsuarioController",
+    "Method": "Editar",
+    "RelativePath": "api/Usuario/Editar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "ConcesionarioApi.Models.Prueba",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.UsuarioController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Usuario/Eliminar/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.UsuarioController",
+    "Method": "Get",
+    "RelativePath": "api/Usuario/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.UsuarioController",
+    "Method": "Nuevo",
+    "RelativePath": "api/Usuario/Nuevo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "ConcesionarioApi.Models.Prueba",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.UsuarioController",
+    "Method": "Get",
+    "RelativePath": "api/Usuario/Obtener/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VehiculoController",
+    "Method": "Editar",
+    "RelativePath": "api/Vehiculo/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ConcesionarioApi.DTOs.VehiculoDTO.VehiculoCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VehiculoController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Vehiculo/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VehiculoController",
+    "Method": "Lista",
+    "RelativePath": "api/Vehiculo/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VehiculoController",
+    "Method": "Nuevo",
+    "RelativePath": "api/Vehiculo/Nuevo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ConcesionarioApi.DTOs.VehiculoDTO.VehiculoCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VehiculoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Vehiculo/Obtener/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VehiculoController",
+    "Method": "SubirImagen",
+    "RelativePath": "api/Vehiculo/SubirImagen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehiculoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VentaController",
+    "Method": "Editar",
+    "RelativePath": "api/Venta/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ConcesionarioApi.DTOs.VentaDTO.VentaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VentaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Venta/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VentaController",
+    "Method": "Lista",
+    "RelativePath": "api/Venta/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VentaController",
+    "Method": "Nuevo",
+    "RelativePath": "api/Venta/Nuevo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ConcesionarioApi.DTOs.VentaDTO.VentaCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VentaController",
+    "Method": "Obtener",
+    "RelativePath": "api/Venta/Obtener/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.VentaController",
+    "Method": "ObtenerVentasPorCliente",
+    "RelativePath": "api/Venta/ObtenerVentasPorCliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConcesionarioApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ConcesionarioApi.WeatherForecast, ConcesionarioApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
