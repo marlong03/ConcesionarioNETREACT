@@ -21,3 +21,12 @@ Marlong Mendoza 09/2025
 ![image](https://github.com/user-attachments/assets/7b6219fe-07e0-4c14-b93c-fa74be58e4b6)
 ![image](https://github.com/user-attachments/assets/f417fd61-ad15-46e1-a5c0-1ee60d93ceb5)
 ![image](https://github.com/user-attachments/assets/f54e763d-d05f-4404-96e2-7feabbe1f2f0)
+![image](https://github.com/user-attachments/assets/edb1c8a2-c731-439a-8f9e-54abf0ce3415)
+![image](https://github.com/user-attachments/assets/42d635e1-694a-4bd3-9048-309ff8a461ac)
+![image](https://github.com/user-attachments/assets/5e01f294-cb18-4023-8525-70539b7e427f)
+REPORTE VEHICULOS VENDIDOS
+![image](https://github.com/user-attachments/assets/61feae6e-b88a-46e5-8961-39be2cdbd549)
+
+
+
+
